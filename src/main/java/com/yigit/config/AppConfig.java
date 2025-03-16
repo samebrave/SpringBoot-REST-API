@@ -15,11 +15,11 @@ public class AppConfig {
 	public List<Employee> employeeList(){
 		List<Employee> employeeList = new ArrayList<>();
 		
-		employeeList.add(new Employee("1", "Yigit", "Yigitto"));
-		employeeList.add(new Employee("2", "Yusuf", "Nesiri"));
+		employeeList.add(new Employee("1", "Dirk", "Kuyt"));
+		employeeList.add(new Employee("2", "Yusuf", "En-Nesyri"));
 		employeeList.add(new Employee("3", "Edin", "Dzeko"));
 		employeeList.add(new Employee("4", "Ferdi", "Kadioglu"));
-		employeeList.add(new Employee("1", "Luis", "Nani"));
+		employeeList.add(new Employee("5", "Luis", "Nani"));
 		
 		return employeeList;
 	}
